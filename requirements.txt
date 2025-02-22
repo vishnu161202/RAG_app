@@ -1,0 +1,1 @@
+"fastapi\nuvicorn\npsycopg2\npgvector\ntransformers\nelasticsearch\nrequests\nbeautifulsoup4\nscrapy" 
