@@ -1,7 +1,7 @@
 import psycopg2
 from elasticsearch import Elasticsearch
 
-conn = psycopg2.connect("dbname=rag_db user=user password=password host=postgres")
+conn = psycopg2.connect("dbname=rag_db user=postgres password=root host=postgres")
 cursor = conn.cursor()
 cursor.execute("CREATE EXTENSION IF NOT EXISTS vector;")
 cursor.execute("""
