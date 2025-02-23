@@ -4,8 +4,8 @@ services:
     image: ankane/pgvector
     container_name: postgres
     environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: root
       POSTGRES_DB: rag_db
     ports:
       - "5432:5432"
